@@ -17,7 +17,7 @@ body{
    }
   
   .site-header {
-    background-color: orangered;
+    background-color: black;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
@@ -28,6 +28,10 @@ body{
   .site-header a:hover {
     color: #fff;
     text-decoration: none;
+  }
+
+  .sub-title{
+    ruby-position: under;
   }
   
   /*
