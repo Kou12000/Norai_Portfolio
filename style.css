@@ -1,16 +1,10 @@
 
 
-body{
+.body{
   background-color: white;
 }
-
-.container {
-    max-width: 960px;
-  }
   
-  /*
-   * カスタムした半透明サイトのヘッダー
-   */
+  /*header*/
 
    .cover-heading{
      max-width: 300;
@@ -30,6 +24,8 @@ body{
     text-decoration: none;
   }
 
+
+  /*sub-title*/
   .sub-title{
     ruby-position: under;
   }
