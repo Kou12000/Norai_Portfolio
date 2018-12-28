@@ -14,25 +14,25 @@
 
 <!--body-->
 <body>
-  <!--global-navs-->
-  <div id="global-nav">
-      <nav class="site-header sticky-top py-1">
-          <div class="container d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2 d-none d-md-inline-block text-center" href="#concept">Concept<br>製作のコンセプト</a>
-            <a class="py-2 d-none d-md-inline-block text-center" href="#service">Service<br>サービス内容</a>
-            <a class="py-2 d-none d-md-inline-block text-center" href="#works">Works<br>実績</a>
-            <a class="py-2 d-none d-md-inline-block text-center" href="#skill">Skill<br>技術</a>
-            <a class="py-2 d-none d-md-inline-block text-center" href="#contact">Contact<br>お問い合わせ</div></a>
-          </div>
-        </nav>
+  <div id="navigation">
+      <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-center sub-title" href="#concept"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></a>
+          <a class="navbar-brand" href="#service">Service</a>
+          <a class="navbar-brand" href="#works">Works</a>
+          <a class="navbar-brand" href="#skill">Skill</a>
+          <a class="navbar-brand" href="#contact">Contact</a>
+      </div>
+    </div>
   </div>
 
   <!--eye-catch-->
-  <div id="eye-chatch"></div>
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
-      <div class="mx-auto my-5">
-        <p class="display-4 font-weight-normal">サイト製作承ります</p>
-        <p class="lead font-weight-normal">サイト製作お手伝いします</p>
+  <div id="eye-catch" class="content">
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-3">サイト制作承ります</h1>
+        <p class="lead">サイトと制作お手伝いします</p>
+      </div>
     </div>
   </div>
 
@@ -40,28 +40,33 @@
   <main>
 
   <!--concept-->
-  <div id="concept">
-    <div class="container w-75 mx-auto">
-      <p class="row">
-        <h1 class="sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
-          <p>
-              <img src="img/profile.jpg"  alt="のらい" class="img-thumbnail w-25 p-3 clearfix float-left">
-              今やWebサイトはWeb上の名刺と言ってもいいほどの存在です。
-              <br>Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
-              <br>お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
-              <br>また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
-              <br>お客様と距離の近い、長く関わることのできるエンジニアを心がけております。 <br>
-        </p>
-      </p>
+  <div id="concept"  class="content">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-12 sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
+      </div>
+      <div class="media">
+         <a class="media-left">
+             <img class="" alt="" src="img/profile.jpg" width="150" hight="150" >
+         </a>
+         <div class="media-body">
+            今やWebサイトはWeb上の名刺と言ってもいいほどの存在です。
+            <br>Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
+            <br>お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
+            <br>また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
+            <br>お客様と距離の近い、長く関わることのできるエンジニアを心がけております。
+        </div>
+      </div>
     </div>
   </div>
 
   <!--service-->
-   <div id="service">
+   <div id="service" class="content">
     <div class="container">
       <div class="row">
         <div class="w-75 mx-auto">
             <h1 class="sub-title text-center"><ruby>Service<rt>-サービス内容-</rt></ruby></h1>
+        
              <div class="card-group">
                <div class="card">
                  <img class="card-img-top" src="img/html-5.png" alt="HTML5">
@@ -91,7 +96,7 @@
   </div>
 
   <!--works-->
-  <div id="works">
+  <div id="works" class="content">
     <div class="container">
       <p class="row">
         <div class="col-12 text-center">
@@ -103,41 +108,55 @@
   </div>
 
   <!--skill-->
-  <div id="skill">
+  <div id="skill" class="content">
     <div class="container">
+      <!--サブタイトル-->
       <div class="row">
         <div class="col-12 text-center">
             <h1 class="sub-title"><ruby>Skill<rt>-技術-</rt></ruby></h1>
             <p>下記の技術の基本は理解しておりまた、技術の組み合わせ等の応用も可能です。</p>
         </div>
       </div>
+      <!--内容-->
       <div class="row">
-        <div class="col-12 text-left">
-            <p>
-                <br>HTML
-                <br>CSS
-                <br>Javascript
-                <br>WordPress
-                <br>PHP
-                <br>jQuery
-                <br>Bootstrap
-                <br>MYSQL
-                <br>Java
-                <br>C/C++
-            </p>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="w-75 mx-auto">
+              <div class="card-group">
+                  <!--Design-->
+                  <div class="card">
+                    <img class="card-img-top" src="" alt="HTML5">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">ウェブデザイン</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                  <!--Webengineer-->
+                  <div class="card">
+                    <img class="card-img-top" src="" alt="WorePress">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">ウェブエンジニア</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                  <!--Developer-->
+                  <div class="card">
+                    <img class="card-img-top" src="" alt="カード3の画像">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">デベロッパー</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+               </div>
+          </div>
+       </div>
 
   <!--contact-->
-  <div id="contact">
+  <div id="contact" class="content">
     <div class="container">
       <p class="row">
         <div class="col-12 text-center">
             <h1 class="sub-title"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></h1>
             <p>ご依頼やご相談等お気軽に下記のメールアドレスまでご連絡ください。<br>当日中に返信致します。</p>
-          <h1 href="mailto:angelica12000@gmail.com" class="btn btn-secondary">e-mail:noraimumaru@gmail.com</h1>
+          <a href="mailto:norainumaru@gmail.com" class="btn btn-secondary">e-mail:noraimumaru@gmail.com</a>
         </div>
       </p>
     </div>
