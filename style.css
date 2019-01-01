@@ -1,18 +1,107 @@
 
+/*グローバル設定*/
 
-.body{
-  background-color: white;
+body{
+  /*背景画像*/
+  /*background-image: url(img/top-image.jpg);*/
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fffdf6;
+  font-family: cursive;
 }
 
-.jumbotron{
-  height: 600px;
+.card{
+  background: transparent;
 }
 
+/*コンテンツ*/
 .content{
-  padding-top : 100px;
-  padding-bottom: 100px;
+  padding : 30px;
+}
+
+/*アイキャッチ画面*/
+
+.top-text{
+  color: white;
+  font-family: serif;
+  text-shadow: 3px black;
+}
+
+#eyecatch{
+  background-size: cover;
+  background-position: center 60%;
+  height: 1000px;
 }
 
 .sub-title{
+  font-family: serif;
   ruby-position: under;
 }
+
+/*ナビゲーションバー*/
+
+.navbar a:hover {
+  border-bottom: 2px solid wheat;
+}
+
+/*画像*/
+#img-profile{
+  
+}
+
+/*コンテンツ背景設定*/
+#concept{
+  background-color:  #fffdf6; 
+}
+
+#service{
+  background-color: #fffdf6;
+}
+
+#works{
+  background-color: #fffdf6f6;
+}
+
+#skill{
+  background-color: #fffdf6;
+}
+
+#contact{
+  background-color: #fffdf6;
+}
+
+/*背景設定*/
+.background{
+  padding-top   : 200px;
+  padding-bottom: 200px;
+}
+
+.eyecatch-background{
+  background-position: center center;
+  background-image:url(img/top-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.concept-background{
+  background-image: url(img/concept.jpg);
+}
+
+.service-background{
+  background-image: url(img/service.jpg);
+}
+
+.works-background{
+  background-image: url(img/works.jpg);
+}
+
+.skill-background{
+  background-image: url(img/skill.jpg);
+}
+
+.contact-background{
+  background-image: url(img/contact.jpg);
+}
+

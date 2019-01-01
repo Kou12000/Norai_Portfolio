@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Norai-Portfolio</title>
+  <title>Norai Portfolio</title>
   <!--Bootstrap4-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!--CSSファイル設定-->
@@ -13,153 +13,212 @@
 </head>
 
 <!--body-->
-<body>
-  <div id="navigation">
-      <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand text-center sub-title" href="#concept"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></a>
-          <a class="navbar-brand" href="#service">Service</a>
-          <a class="navbar-brand" href="#works">Works</a>
-          <a class="navbar-brand" href="#skill">Skill</a>
-          <a class="navbar-brand" href="#contact">Contact</a>
-      </div>
-    </div>
-  </div>
-
-  <!--eye-catch-->
-  <div id="eye-catch" class="content">
-    <div class="container">
-      <div class="jumbotron">
-        <h1 class="display-3">サイト制作承ります</h1>
-        <p class="lead">サイトと制作お手伝いします</p>
-      </div>
-    </div>
-  </div>
-
+<body style="padding-top:60px;">
   <!--main-->
   <main>
-
-  <!--concept-->
-  <div id="concept"  class="content">
-    <div class="container">
-      <div class="row">
-        <h1 class="col-12 sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
+    <!--Navgationbar-->
+      <div id="globalnav" class="navbar nav-pills nav-justified fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+              <a class="navbar-brand text-center sub-title" href="#nav-eyecatch"><ruby>Norai<rt>-Web Designer-</rt></ruby></a>
+              <a class="navbar-brand text-center sub-title" href="#nav-concept"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></a>
+              <a class="navbar-brand text-center sub-title" href="#nav-service"><ruby>Service<rt>-サービス内容-</rt></ruby></a>
+              <a class="navbar-brand text-center sub-title" href="#nav-works"><ruby>Works<rt>-制作実績-</rt></ruby></a>
+              <a class="navbar-brand text-center sub-title" href="#nav-skill"><ruby>Skill<rt>-技術-</rt></ruby></a>
+              <a class="navbar-brand text-center sub-title" href="#nav-contact"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></a>
+          </div>
       </div>
-      <div class="media">
-         <a class="media-left">
-             <img class="" alt="" src="img/profile.jpg" width="150" hight="150" >
-         </a>
-         <div class="media-body">
-            今やWebサイトはWeb上の名刺と言ってもいいほどの存在です。
-            <br>Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
-            <br>お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
-            <br>また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
-            <br>お客様と距離の近い、長く関わることのできるエンジニアを心がけております。
-        </div>
+
+    <!--eye-catch-->
+
+  <div id="nav-eyecatch" class="eyecatch-background container-fluid">
+    <div id="eyecatch" class="container d-flex align-items-center">
+      <div class="top-text">
+          <h1 class="display-3">WEBサイト制作承ります</h1>
+          <p class="display-5">Norai WEB Desiner＆WEB Engineer</p>
       </div>
     </div>
   </div>
 
-  <!--service-->
-   <div id="service" class="content">
-    <div class="container">
-      <div class="row">
-        <div class="w-75 mx-auto">
-            <h1 class="sub-title text-center"><ruby>Service<rt>-サービス内容-</rt></ruby></h1>
-        
-             <div class="card-group">
-               <div class="card">
-                 <img class="card-img-top" src="img/html-5.png" alt="HTML5">
-                 <div class="card-body">
-                   <h5 class="card-title">HTML&CSSサイト<br>製作・コーディング</h5>
-                   <p class="card-text">HTML&CSSを使いWEBサイトのコーディングを致します。</p>
-                 </div>
-               </div>
-               <div class="card">
-                 <img class="card-img-top" src="img/wordpress.png" alt="WorePress">
-                 <div class="card-body">
-                   <h5 class="card-title">WordPressサイト<br>設置・デザイン</h5>
-                   <p class="card-text">WordPressのサイトを制作致します。</p>
-                 </div>
-               </div>
-               <div class="card">
-                 <img class="card-img-top" src="img/cop-site.png" alt="カード3の画像">
-                 <div class="card-body">
-                   <h5 class="card-title">コーポレイトサイト<br>会社案内・商品紹介</h5>
-                   <p class="card-text">会社の案内と商品紹介です。</p>
-                 </div>
-               </div>
-             </div>
+  <!--concept-->
+  <div id="nav-concept" class="background concept-background container-fluid">
+        <div id="concept" class="container content">
+          <div class="row">
+            <h1 class="col-12 sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
+          </div>
+    
+          <div class="card-group">
+              <div class="card col-3">
+                <img class="card-img" src="img/profile.jpg" alt="">
+              </div>
+              <div class="card col-9">
+                <div class="card-body">
+                  <p class="card-text">
+                      初めまして、フリーランスデザイナー＆エンジニアののらいと申します。
+                      <br>WEBが発達した現在、WebサイトはWeb上の名刺と言ってもいいほどの存在です。
+                      <br>お客様の制作致します。
+                      <br>Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
+                      <br>お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
+                      <br>WEBサイトをタブレット・スマートフォンに最適な表示にするレスポンシブデザインにすることも可能です。
+                      <br>また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
+                      <br>お客様と距離の近い、長く関わることのできるエンジニアを心がけております。
+                  </p>
+                </div>
+              </div>
+           </div>
         </div>
+  </div>
+
+
+  <!--service-->
+  <div id="nav-service" class="background service-background container-fluid">
+      <div id="service" class="container content">
+          <div class="row">
+            <div class="w-75 mx-auto">
+                <h1 class="sub-title text-center"><ruby>Service<rt>-サービス内容-</rt></ruby></h1>
+            
+                 <div class="card-group">
+                   <div class="card">
+                     <img class="card-img-top height" src="img/html-5.png" alt="HTML5">
+                     <div class="card-body">
+                       <h5 class="card-title">HTML&CSSサイト<br>製作・コーディング</h5>
+                       <p class="card-text">HTML&CSSを使いWEBサイトのコーディングを致します。</p>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <img class="card-img-top" src="img/wordpress.png" alt="WorePress">
+                     <div class="card-body">
+                       <h5 class="card-title">WordPressサイト<br>設置・デザイン</h5>
+                       <p class="card-text">WordPressのサイトを制作致します。</p>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <img class="card-img-top" src="img/cop-site.png" alt="カード3の画像">
+                     <div class="card-body">
+                       <h5 class="card-title">コーポレイトサイト<br>会社案内・商品紹介</h5>
+                       <p class="card-text">会社の案内と商品紹介です。</p>
+                     </div>
+
+                   </div>
+                 </div>
+            </div>
+          </div>
       </div>
-    </div>
   </div>
 
   <!--works-->
-  <div id="works" class="content">
-    <div class="container">
-      <p class="row">
-        <div class="col-12 text-center">
-            <h1 class="sub-title"><ruby>Works<rt>-制作実績-</rt></ruby></h1>
-            <p>私が開発してきた実績一覧です。</p>
-        </div>
-      </p>
-    </div>
+  <div id="nav-works" class="background works-background container-fluid">
+      <div id="works" class="container content">
+          <div class="w-75 mx-auto">
+              <p class="row">
+                  <div class="col-12 text-center">
+                      <h1 class="sub-title"><ruby>Works<rt>-制作実績-</rt></ruby></h1>
+                      <p>私が開発してきた実績一覧です。</p>
+                  </div>
+              </p>
+                <p class="row">
+                    <div class="card-group">
+                        <div class="card">
+                          <img class="card-img-top height" src="" alt="">
+                          <div class="card-body">
+                            <h5 class="card-title">Norai Portflio</h5>
+                            <p class="card-text">当ポートフォリオサイトです</p>
+                          </div>
+                        </div>
+                    </div>
+                </p>
+          </div>
+      </div>
   </div>
 
   <!--skill-->
-  <div id="skill" class="content">
-    <div class="container">
-      <!--サブタイトル-->
-      <div class="row">
-        <div class="col-12 text-center">
-            <h1 class="sub-title"><ruby>Skill<rt>-技術-</rt></ruby></h1>
-            <p>下記の技術の基本は理解しておりまた、技術の組み合わせ等の応用も可能です。</p>
-        </div>
-      </div>
-      <!--内容-->
-      <div class="row">
-          <div class="w-75 mx-auto">
-              <div class="card-group">
-                  <!--Design-->
-                  <div class="card">
-                    <img class="card-img-top" src="" alt="HTML5">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">ウェブデザイン</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </div>
-                  <!--Webengineer-->
-                  <div class="card">
-                    <img class="card-img-top" src="" alt="WorePress">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">ウェブエンジニア</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </div>
-                  <!--Developer-->
-                  <div class="card">
-                    <img class="card-img-top" src="" alt="カード3の画像">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">デベロッパー</h5>
-                      <p class="card-text"></p>
-                    </div>
-                  </div>
-               </div>
+  <div id="nav-skill" class="background skill-background container-fluid">
+      <div id="skill" class="container content">
+          <!--サブタイトル-->
+          <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="sub-title"><ruby>Skill<rt>-技術-</rt></ruby></h1>
+                <p>下記の技術が使用可能です。又技術の組み合わせの応用もできます。</p>
+            </div>
+          </div>
+          <!--内容-->
+          <div class="row">
+              <div class="w-75 mx-auto">
+                  <div class="card-group">
+                      <!--Design-->
+                      <div class="card">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">ウェブデザイン</h5>
+                          <p class="card-text text-center">
+                            開発ツール
+                             <br>Photo Shop
+                             <br>Illustrator
+                             <br>Dreamweaver
+                          </p>
+                        </div>
+                      </div>
+                      <!--Webengineer-->
+                      <div class="card">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">ウェブエンジニア</h5>
+                          <p class="card-text text-center">
+                            プログラム言語・フレームワーク
+                            <br>HTML
+                            <br>CSS
+                            <br>Javascript
+                            <br>PHP
+                            <br>WordPress
+                            <br>jQuery
+                            <br>Bootstrap
+                            <br>MYSQL
+                            <br>ローカル開発環境構築
+                          </p>
+                          <p class="card-text text-center">
+                            開発ツール
+                            <br>Visual Studio Code
+                            <br>Atom
+                            <br>GitHub
+                          </p>
+                        </div>
+                      </div>
+                      <!--Developer-->
+                      <div class="card">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">デベロッパー</h5>
+                          <p class="card-text text-center">
+                            プログラム言語
+                            <br>C/C++
+                            <br>Java
+                          </p>
+                          <p class="card-text text-center">
+                              開発ツール
+                              <br>Visual Studio
+                              <br>Visual Studio Codes
+                              <br>Eclipse
+                              <br>Atom
+                              <br>GitHub
+                            </p>
+                        </div>
+                      </div>
+                   </div>
+              </div>
           </div>
        </div>
+  </div>
 
   <!--contact-->
-  <div id="contact" class="content">
-    <div class="container">
-      <p class="row">
-        <div class="col-12 text-center">
-            <h1 class="sub-title"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></h1>
-            <p>ご依頼やご相談等お気軽に下記のメールアドレスまでご連絡ください。<br>当日中に返信致します。</p>
-          <a href="mailto:norainumaru@gmail.com" class="btn btn-secondary">e-mail:noraimumaru@gmail.com</a>
-        </div>
-      </p>
-    </div>
+  <div id="nav-contact" class="background contact-background container-fluid">
+      <div id="contact" class="content container">
+          <p class="row">
+            <div class="col-12 text-center">
+                <h1 class="sub-title"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></h1>
+                <p>ご依頼やご相談等お気軽に下記のメールアドレスまでご連絡ください。<br>当日中に返信致します。</p>
+              <a href="mailto:norainumaru@gmail.com" class="btn btn-secondary">e-mail:noraimumaru@gmail.com</a>
+            </div>
+          </p>
+      </div>
   </div>
 
   </main>
@@ -167,12 +226,10 @@
   <!--footer-->
   <!--copyright-->
   <footer>
-    <div id="copyright">
-        <div class="container">
+    <div id="copyright" class="container">
           <div class="row">
               <p class="col-12 text-center"><small>&copy; 2018 Norai</small></p>
           </div>
-        </div>
     </div>
 
   </footer>
