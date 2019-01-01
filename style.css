@@ -26,7 +26,8 @@ body{
 .top-text{
   color: white;
   font-family: serif;
-  text-shadow: 3px black;
+  text-shadow: 1px 1px black;
+  text-decoration: underline;
 }
 
 #eyecatch{
@@ -47,9 +48,6 @@ body{
 }
 
 /*画像*/
-#img-profile{
-  
-}
 
 /*コンテンツ背景設定*/
 #concept{
