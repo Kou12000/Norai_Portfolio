@@ -9,7 +9,12 @@ body{
   background-attachment: fixed;
   background-size: cover;
   background-color: #fffdf6;
-  font-family: cursive;
+  font-family: "メイリオ", sans-serif;
+  line-height: 2.0;
+}
+
+h5{
+  font-weight: bolder;
 }
 
 .card{
