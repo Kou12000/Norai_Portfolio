@@ -5,99 +5,128 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Norai Portfolio</title>
+  <title>Norai WebDesigner</title>
+  <!--favicon-->
+  <link rel="icon" type="img/png" href="img/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="img/png" href="img/favicon-16x16.png" sizes="16x16" />
+  <!--OGP-Image-->
+  <meta property="og:image" content="profile.jpg" />
   <!--Bootstrap4-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <!--CSSファイル設定-->
+  <!--CSSFileSetting-->
   <link rel="stylesheet" href="style.css">
 </head>
 
 <!--body-->
-<body style="padding-top:60px;">
-  <!--main-->
-  <main>
+<body>
+  <header>
     <!--Navgationbar-->
-      <div id="globalnav" class="navbar nav-pills nav-justified fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-              <a class="navbar-brand text-center sub-title" href="#nav-eyecatch"><ruby>Norai<rt>-Web Designer-</rt></ruby></a>
-              <a class="navbar-brand text-center sub-title" href="#nav-concept"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></a>
-              <a class="navbar-brand text-center sub-title" href="#nav-service"><ruby>Service<rt>-サービス内容-</rt></ruby></a>
-              <a class="navbar-brand text-center sub-title" href="#nav-works"><ruby>Works<rt>-制作実績-</rt></ruby></a>
-              <a class="navbar-brand text-center sub-title" href="#nav-skill"><ruby>Skill<rt>-技術-</rt></ruby></a>
-              <a class="navbar-brand text-center sub-title" href="#nav-contact"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></a>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container">
+          <a class="navbar-brand" href="#">Norai</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav w-100 nav-justified">
+              <li class="nav-item">
+                <a class="nav-link" href="#nav-eyecatch">Top</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nav-concept">Concept</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nav-service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nav-works">Works</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#nav-contact">Contact</a>
+              </li>
+            </ul>
           </div>
       </div>
+    </nav>
+      
+  </header>
 
+  <!--main-->
+  <main>
     <!--eye-catch-->
-
-  <div id="nav-eyecatch" class="eyecatch-background container-fluid">
-    <div id="eyecatch" class="container d-flex align-items-center">
-      <div class="row bg-dark border border-secondary" style="padding: 10px;">
-          <div class="top-text">
-              <h1>WEBサイト制作承ります</h1>
+    <div id="nav-eyecatch">
+      <div id="eyecatch" class="container">
+          <div class="col-12 top-text text-center">
+              <p>あなたのサイトを世界にお届けします</p>
               <p>-Norai WEB Desiner＆WEB Engineer-</p>
           </div>
       </div>
     </div>
-  </div>
 
   <!--concept-->
-  <div id="nav-concept" class="background concept-background container-fluid">
+  <div id="nav-concept">
+    <div class="container-fluid background">
         <div id="concept" class="container content">
-          <div class="row">
-            <h1 class="col-12 sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
+            <div class="row">
+              <h1 class="col-12 sub-title text-center"><ruby>Concept<rt>-制作コンセプト-</rt></ruby></h1>
+            </div>
+            <div class="row">
+                <div class="col-12 card-group">
+                    <div class="cardborder border-0">
+                      <div class="card-body">
+                          <img src="img/profile.jpg" class="card-img-top text-center image-profile" alt="">
+                      </div>
+                    </div>
+                    <div class="card border border-0">
+                      <div class="card-body">
+                        <div class="card-text">
+                            初めまして、フリーランスデザイナー＆エンジニアののらいと申します。
+                            WEBが発達した現在、WebサイトはWeb上の名刺と言ってもいいほどの存在です。
+                            Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
+                            お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
+                            WEBサイトをタブレット・スマートフォンに最適な表示にするレスポンシブデザインにすることも可能です。
+                            また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
+                            お客様と距離の近い、長く関わることのできるエンジニアを心がけております。
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+            </div>
           </div>
-    
-          <div class="card-group">
-              <div class="card col-3 border border-0">
-                <img class="img-thumbnail" src="img/profile.jpg" alt="">
-              </div>
-              <div class="card col-9 border border-0">
-                <div class="card-body">
-                  <div class="card-text">
-                      初めまして、フリーランスデザイナー＆エンジニアののらいと申します。
-                      <br>WEBが発達した現在、WebサイトはWeb上の名刺と言ってもいいほどの存在です。
-                      <br>Webサイトを公開したいお客様のご希望に答えられるようサポート致します。
-                      <br>お客様のビジネスにおいて最適なWebサイトとなるよう、設計から親身に関わらせて頂きます。
-                      <br>WEBサイトをタブレット・スマートフォンに最適な表示にするレスポンシブデザインにすることも可能です。
-                      <br>また、サイト制作後のアフターフォローも大切にしています。サイトのメンテナンス等日々の改善についてもご相談ください。
-                      <br>お客様と距離の近い、長く関わることのできるエンジニアを心がけております。
-                  </div>
-                </div>
-              </div>
-           </div>
-        </div>
+    </div>
   </div>
-
 
   <!--service-->
   <div id="nav-service" class="background service-background container-fluid">
       <div id="service" class="container content">
           <div class="row">
-            <div class="w-75 mx-auto">
-                <h1 class="sub-title text-center"><ruby>Service<rt>-サービス内容-</rt></ruby></h1>
-            
-                 <div class="card-group">
-                   <div class="card col-4  border border-0">
-                     <img class="card-img-top" src="img/html.png" alt="">
+            <div class="col-12 text-center">
+                <h1 class="sub-title"><ruby>Service<rt>-サービス内容-</rt></ruby></h1>
+                <p>WEBサイトに関することでしたらどんなことでもご相談ください</p>
+            </div>
+          </div>
+          <div class="row">
+                 <div class="col-12 card-group">
+                   <div class="card border border-0">
+                     <img class="service-image" src="img/html.png" alt="">
                      <div class="card-body">
-                       <h5 class="card-title">HTML&CSSサイト<br>製作・コーディング</h5>
+                       <h5 class="card-title text-center">HTML&CSSサイト<br>製作・コーディング</h5>
                        <p class="card-text">HTML&CSSでWEBサイトのコーディングを致します。</p>
                      </div>
                    </div>
-                   <div class="card col-4 border border-0">
-                     <img class="card-img-top text-center" src="img/wordpress.png" alt="">
+                   <div class="card border border-0">
+                     <img class="service-image" src="img/wordpress.png" alt="">
                      <div class="card-body">
-                       <h5 class="card-title">WordPressサイト<br>設置・デザイン</h5>
+                       <h5 class="card-title text-center">WordPressサイト<br>設置・デザイン</h5>
                        <p class="card-text">
-                         WordPressのサイトを制作致します。
+                         WordPressに対応したサイト制作を致します。
+                         
                         </p>
                      </div>
                    </div>
-                   <div class="card col-4 border border-0">
-                     <img class="card-img-top text-center" src="img/cop-site.png" alt="">
+                   <div class="card border border-0">
+                     <img class="service-image" src="img/cop-site.png" alt="">
                      <div class="card-body">
-                       <h5 class="card-title">コーポレイトサイト<br>会社案内・商品紹介</h5>
+                       <h5 class="card-title text-center">コーポレートサイト<br>会社案内・商品紹介</h5>
                        <p class="card-text">
                          会社のイメージを重視しながら会社の紹介サイトを制作致します。
                         </p>
@@ -153,7 +182,7 @@
           </div>
           <!--内容-->
           <div class="row">
-              <div class="w-75 mx-auto">
+              <div class="col-12 w-75 mx-auto">
                   <div class="card-group">
                       <!--Design-->
                       <div class="card">
@@ -222,13 +251,19 @@
   <!--contact-->
   <div id="nav-contact" class="background contact-background container-fluid">
       <div id="contact" class="content container">
-          <p class="row">
+          <div class="row">
             <div class="col-12 text-center">
                 <h1 class="sub-title"><ruby>Contact<rt>-お問い合わせ-</rt></ruby></h1>
                 <p>ご依頼やご相談等お気軽に下記のメールアドレスまでご連絡ください。<br>当日中に返信致します。</p>
-              <a href="mailto:norainumaru@gmail.com" class="btn btn-secondary">e-mail:noraimumaru@gmail.com</a>
             </div>
-          </p>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+                <a href="mailto:norainumaru@gmail.com">
+                  <img src="img/e-mail.png" alt="メールはこちらへ" class="e-mail-icon">
+                </a>
+            </div>
+          </div>
       </div>
   </div>
 
@@ -242,7 +277,6 @@
               <p class="col-12 text-center"><small>&copy; 2018 Norai</small></p>
           </div>
     </div>
-
   </footer>
 
   <!--Javascriptプラグイン-->

@@ -2,14 +2,21 @@
 /*グローバル設定*/
 
 body{
-  /*背景画像*/
-  /*background-image: url(img/top-image.jpg);*/
+  /* 画像ファイルの指定 */
+  background-image: url(img/background-photo.jpg);
+  /* 画像を常に天地左右の中央に配置 */
   background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
   background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
   background-attachment: fixed;
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
   background-size: cover;
-  background-color: #fffdf6;
-  font-family: "メイリオ", sans-serif;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #464646;
+
+  color: white;
+  text-shadow: 1px 1px 3px #444;
   line-height: 2.0;
 }
 
@@ -27,53 +34,58 @@ h5{
 }
 
 /*アイキャッチ画面*/
+#eyecatch{
+  padding-top: 200px;
+  padding-bottom: 500px;
+}
 
 .top-text{
+  font-size: xx-large;
   color: white;
-  font-family: serif;
-  text-shadow: 1px 1px black;
-  text-decoration: underline;
+  font-weight: 800;
+  text-shadow: 2px  2px 5px black,
+            -2px  2px 5px black,
+             2px -2px 5px black,
+            -2px -2px 5px black;
 }
 
-#eyecatch{
-  background-size: cover;
-  background-position: center 60%;
-  height: 1000px;
-}
-
+/*sub-title*/
 .sub-title{
   font-family: serif;
   ruby-position: under;
 }
 
 /*ナビゲーションバー*/
-
-.navbar a:hover {
-  border-bottom: 2px solid wheat;
+.navbar{
+  height: 50px;
 }
 
 /*画像*/
+.image-profile{
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  200px;       /* ※縦横を同値に */
+  height: 200px;       /* ※縦横を同値に */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-image{
+  border-radius: 10px;  /* 角丸半径を50%にする(=円形にする) */
+  width:  160px;       /* ※縦横を同値に */
+  height: 160px;       /* ※縦横を同値に */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*image-icon*/
+.e-mail-icon{
+  border-radius: 20px;  /* 角丸半径を50%にする(=円形にする) */
+  width:  80px;       /* ※縦横を同値に */
+  height: 80px;       /* ※縦横を同値に */
+}
 
 /*コンテンツ背景設定*/
-#concept{
-  background-color:  #fffdf6; 
-}
-
-#service{
-  background-color: #fffdf6;
-}
-
-#works{
-  background-color: #fffdf6f6;
-}
-
-#skill{
-  background-color: #fffdf6;
-}
-
-#contact{
-  background-color: #fffdf6;
-}
 
 /*背景設定*/
 .background{
@@ -81,30 +93,22 @@ h5{
   padding-bottom: 200px;
 }
 
-.eyecatch-background{
-  background-position: center center;
-  background-image:url(img/top-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+#concept{
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.concept-background{
-  background-image: url(img/concept.jpg);
+#service{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.service-background{
-  background-image: url(img/service.jpg);
+#works{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.works-background{
-  background-image: url(img/works.jpg);
+#skill{
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.skill-background{
-  background-image: url(img/skill.jpg);
+#contact{
+  background-color: rgba(0, 0, 0, 0.8);
 }
-
-.contact-background{
-  background-image: url(img/contact.jpg);
-}
-
