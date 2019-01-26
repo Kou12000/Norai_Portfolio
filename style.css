@@ -1,6 +1,5 @@
 
 /*グローバル設定*/
-
 body{
   /* 画像ファイルの指定 */
   background-image: url(img/background-photo.jpg);
@@ -18,6 +17,10 @@ body{
   color: white;
   text-shadow: 1px 1px 3px #444;
   line-height: 2.0;
+
+  /*フォント設定*/
+  font-family: 'NotoSans-Black';
+  src: url('font/NotoSans-Black.ttf')format('truetype');
 }
 
 h5{
@@ -51,13 +54,12 @@ h5{
 
 /*sub-title*/
 .sub-title{
-  font-family: serif;
   ruby-position: under;
 }
 
 /*ナビゲーションバー*/
 .navbar{
-  height: 50px;
+  height: 5  0px;
 }
 
 /*画像*/
@@ -77,6 +79,17 @@ h5{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.works-image{
+  border-radius: 10px;  /* 角丸半径を50%にする(=円形にする) */
+  width:  200px;       /* ※縦横を同値に */
+  height: 200px;       /* ※縦横を同値に */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*image-icon*/
 .e-mail-icon{
