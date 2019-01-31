@@ -1,26 +1,19 @@
-
 /*グローバル設定*/
 body{
-  /* 画像ファイルの指定 */
-  background-image: url(img/background-photo.jpg);
-  /* 画像を常に天地左右の中央に配置 */
+  /*背景画像設定*/
+  background-image: url("img/background-photo.jpg");
   background-position: center center;
-  /* 画像をタイル状に繰り返し表示しない */
   background-repeat: no-repeat;
-  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
   background-attachment: fixed;
-  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
   background-size: cover;
-  /* 背景画像が読み込まれる前に表示される背景のカラー */
-  background-color: #464646;
-
-  color: white;
-  text-shadow: 1px 1px 3px #444;
-  line-height: 2.0;
+  height: 100vh;
 
   /*フォント設定*/
   font-family: 'NotoSans-Black';
   src: url('font/NotoSans-Black.ttf')format('truetype');
+  color: white;
+  text-shadow: 1px 1px 3px #444;
+  line-height: 2.0;
 }
 
 h5{
@@ -28,7 +21,7 @@ h5{
 }
 
 .card{
-  background: transparent;
+  background-color: transparent;
 }
 
 ul{
@@ -43,7 +36,7 @@ ul{
 
 /*アイキャッチ画面*/
 #eyecatch{
-  padding-top: 200px;
+  padding-top: 250px;
   padding-bottom: 500px;
 }
 
@@ -107,8 +100,8 @@ ul{
 
 /*背景設定*/
 .background{
-  padding-top   : 200px;
-  padding-bottom: 200px;
+  padding-top   : 120px;
+  padding-bottom: 120px;
 }
 
 #concept{
@@ -130,3 +123,4 @@ ul{
 #contact{
   background-color: rgba(0, 0, 0, 0.8);
 }
+
